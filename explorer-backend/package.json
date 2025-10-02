@@ -1,0 +1,19 @@
+{
+  "name": "explorer-backend",
+  "module": "src/presentation/server.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.15.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
+    "@elysiajs/openapi": "^1.4.11",
+    "elysia": "^1.4.9",
+    "pg": "^8.16.3"
+  }
+}
