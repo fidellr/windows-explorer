@@ -50,7 +50,7 @@ Install dependencies and run:
 ```bash
 cd explorer-backend
 bun install
-bun src/presentation/server.ts   # or `bun run dev` if defined in package.json
+bun run src/presentation/server.ts
 ```
 
 - Backend will listen on `http://localhost:3000`.
