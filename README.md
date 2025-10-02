@@ -26,7 +26,7 @@ chmod +x run.sh
 
 This will:
 
-- Create the database `win_explorer` (if not exists).
+- Create the database `win_explorer_db` (if not exists).
 - Apply schema from `explorer-backend/sql/schema.sql`.
 - Insert sample data from `explorer-backend/sql/seed.sql`.
 
