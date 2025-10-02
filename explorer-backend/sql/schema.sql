@@ -1,0 +1,14 @@
+CREATE TABLE folders (
+    id BIGSERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    parent_id BIGINT REFERENCES folders(id) ON DELETE CASCADE,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT now()
+);
+
+CREATE TABLE files (
+    id BIGSERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    folder_id BIGINT REFERENCES folders(id) ON DELETE CASCADE,
+    size_bytes BIGINT DEFAULT 0,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT now()
+);
