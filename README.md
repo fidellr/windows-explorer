@@ -14,7 +14,7 @@ A Windows Explorer–like web application built with **Vue 3 (Composition API)**
 
 ## ⚙️ Step 1 — Database Setup
 
-Update DB connection variables in `run.sh` if needed (default user: `postgres`, db: `win_explorer`).
+Update DB connection variables in `run.sh` if needed (default user: `postgres`, db: `win_explorer_db`).
 
 ```bash
 # make script executable
